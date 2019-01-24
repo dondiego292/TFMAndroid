@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.geomovil.geogestor.MainActivity">
+
+    <!--<item
+        android:id="@+id/menu_online_payment"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_payment"
+        android:title="@string/action_online_payment"/>-->
+    <item
+        android:id="@+id/menu_gps"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_location_off"
+        android:title="@string/action_gps"/>
+    <item
+        android:id="@+id/menu_map"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_place"
+        android:title="@string/action_map"/>
+    <item
+        android:id="@+id/menu_call"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_call"
+        android:title="@string/action_call"/>
+    <!--<item
+        android:id="@+id/menu_client_data"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/action_view_client_data"/>-->
+</menu>

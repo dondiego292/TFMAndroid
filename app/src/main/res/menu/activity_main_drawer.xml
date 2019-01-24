@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_done"
+            android:title="@string/Clients" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_action_place"
+            android:title="@string/Map" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/Calendar" />
+        <item
+            android:id="@+id/nav_encuestas"
+            android:icon="@drawable/ic_instalada"
+            android:title="@string/Encuestas" />
+    </group>
+
+    <item android:title="@string/System">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/Send" />
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_done"
+                android:title="@string/Update" />
+            <item
+                android:id="@+id/nav_system"
+                android:icon="@drawable/ic_action_refresh"
+                android:title="@string/Update_System" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_error"
+                android:title="@string/Logout" />
+        </menu>
+    </item>
+
+</menu>

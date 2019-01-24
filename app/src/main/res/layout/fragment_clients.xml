@@ -1,0 +1,74 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/client_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/client_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/bottom_clients_bar"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:textColor="@color/actionbar_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/label_fecha_inspeccion"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:textColor="@color/actionbar_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="8"
+                android:id="@+id/txt_clientes_quantity"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:textColor="@color/actionbar_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=" / "
+                android:id="@+id/label_clientes_visitados"
+                android:layout_alignTop="@+id/txt_clientes_quantity"
+                android:layout_toLeftOf="@+id/txt_clientes_quantity"
+                android:layout_toStartOf="@+id/txt_clientes_quantity"
+                android:layout_marginRight="3dp" />
+            <TextView
+                android:textColor="@color/actionbar_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="25"
+                android:id="@+id/txt_clientes_visitados_quantity"
+                android:layout_alignTop="@+id/label_clientes_visitados"
+                android:layout_toLeftOf="@+id/label_clientes_visitados"
+                android:layout_toStartOf="@+id/label_clientes_visitados"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp" />
+
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view_client_list"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_clients_bar"
+            android:layout_marginTop="18dp"/>
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

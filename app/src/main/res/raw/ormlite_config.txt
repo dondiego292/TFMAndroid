@@ -1,0 +1,539 @@
+#
+# generated on 2018/11/30 10:12:26
+#
+# --table-start--
+dataClass=net.geomovil.gestor.database.ClientData
+tableName=client_data
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=webID
+columnName=WEBID
+# --field-end--
+# --field-start--
+fieldName=nombre
+columnName=nombre
+# --field-end--
+# --field-start--
+fieldName=apellido
+columnName=apellido
+# --field-end--
+# --field-start--
+fieldName=identificacion
+columnName=identificacion
+# --field-end--
+# --field-start--
+fieldName=telefono
+columnName=TELEFONO
+# --field-end--
+# --field-start--
+fieldName=direccion
+columnName=direccion
+# --field-end--
+# --field-start--
+fieldName=estadoCivil
+columnName=estadoCivil
+# --field-end--
+# --field-start--
+fieldName=genero
+columnName=genero
+# --field-end--
+# --field-start--
+fieldName=lugarDeNacimiento
+columnName=lugarDeNacimiento
+# --field-end--
+# --field-start--
+fieldName=ciudad
+columnName=ciudad
+# --field-end--
+# --field-start--
+fieldName=fechaInspeccion
+columnName=fechaInspeccion
+# --field-end--
+# --field-start--
+fieldName=fechaCreacion
+columnName=fechaCreacion
+# --field-end--
+# --field-start--
+fieldName=fechaVisitado
+columnName=fechaVisitado
+# --field-end--
+# --field-start--
+fieldName=fechaNacimiento
+columnName=fechaNacimiento
+# --field-end--
+# --field-start--
+fieldName=latitud
+columnName=latitud
+# --field-end--
+# --field-start--
+fieldName=longitud
+columnName=longitud
+# --field-end--
+# --field-start--
+fieldName=flatitud
+columnName=fLatitud
+# --field-end--
+# --field-start--
+fieldName=flongitud
+columnName=fLongitud
+# --field-end--
+# --field-start--
+fieldName=gestion
+columnName=gestion
+# --field-end--
+# --field-start--
+fieldName=latitudCapturada
+columnName=latitudCapturada
+# --field-end--
+# --field-start--
+fieldName=longitudCapturada
+columnName=longitudCapturada
+# --field-end--
+# --field-start--
+fieldName=movilStatus
+columnName=movilStatus
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.LocationData
+tableName=location_data
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=uuid
+columnName=uuid
+# --field-end--
+# --field-start--
+fieldName=accuracy
+columnName=accuracy
+# --field-end--
+# --field-start--
+fieldName=altitude
+columnName=altitude
+# --field-end--
+# --field-start--
+fieldName=latitude
+columnName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+columnName=longitude
+# --field-end--
+# --field-start--
+fieldName=start_time
+columnName=start_time
+# --field-end--
+# --field-start--
+fieldName=end_time
+columnName=end_time
+# --field-end--
+# --field-start--
+fieldName=start_date
+columnName=start_date
+# --field-end--
+# --field-start--
+fieldName=status
+columnName=status
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.LogEvent
+tableName=log_event
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=fecha
+columnName=fecha
+# --field-end--
+# --field-start--
+fieldName=mensaje
+columnName=mensaje
+# --field-end--
+# --field-start--
+fieldName=enviado
+columnName=enviado
+# --field-end--
+# --field-start--
+fieldName=tipo
+columnName=tipo
+# --field-end--
+# --field-start--
+fieldName=propietario
+columnName=proppietario
+# --field-end--
+# --field-start--
+fieldName=uuuid
+columnName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.QuestionRule
+tableName=question_rule
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=pregunta
+columnName=pregunta
+# --field-end--
+# --field-start--
+fieldName=depende
+columnName=depende
+# --field-end--
+# --field-start--
+fieldName=valor
+columnName=valor
+# --field-end--
+# --field-start--
+fieldName=accion
+columnName=accion
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.QuestionType
+tableName=question_type
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=tipo
+columnName=tipo
+# --field-end--
+# --field-start--
+fieldName=nombre
+columnName=nombre
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.Survey
+tableName=survey
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nombre
+columnName=nombre
+# --field-end--
+# --field-start--
+fieldName=etiqueta
+columnName=etiqueta
+# --field-end--
+# --field-start--
+fieldName=uuid
+columnName=uuid
+# --field-end--
+# --field-start--
+fieldName=tipo
+columnName=tipo
+# --field-end--
+# --field-start--
+fieldName=descripcion
+columnName=descripcion
+# --field-end--
+# --field-start--
+fieldName=estado
+columnName=estado
+# --field-end--
+# --field-start--
+fieldName=libre
+columnName=libre
+# --field-end--
+# --field-start--
+fieldName=instalada
+columnName=instalada
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=preguntas
+foreignCollection=true
+# --field-end--
+# --field-start--
+fieldName=catalogos
+foreignCollection=true
+# --field-end--
+# --field-start--
+fieldName=catalogosPadres
+foreignCollection=true
+# --field-end--
+# --field-start--
+fieldName=catalogosHijos
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.SurveyCatalog
+tableName=survey_catalog
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=nombre
+columnName=nombre
+# --field-end--
+# --field-start--
+fieldName=codigo
+columnName=codigo
+# --field-end--
+# --field-start--
+fieldName=valor
+columnName=valor
+# --field-end--
+# --field-start--
+fieldName=nombrePadre
+columnName=nombre_padre
+# --field-end--
+# --field-start--
+fieldName=codigoPadre
+columnName=codigo_padre
+# --field-end--
+# --field-start--
+fieldName=encuesta
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.SurveyCatalogHijo
+tableName=survey_catalog_hijo
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=nombre
+columnName=nombre
+# --field-end--
+# --field-start--
+fieldName=codigo
+columnName=codigo
+# --field-end--
+# --field-start--
+fieldName=valor
+columnName=valor
+# --field-end--
+# --field-start--
+fieldName=catalogoPadre
+columnName=catalogoPadre
+# --field-end--
+# --field-start--
+fieldName=encuesta
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.SurveyCatalogPadre
+tableName=survey_catalog_padre
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=nombre
+columnName=nombre
+# --field-end--
+# --field-start--
+fieldName=codigo
+columnName=codigo
+# --field-end--
+# --field-start--
+fieldName=valor
+columnName=valor
+# --field-end--
+# --field-start--
+fieldName=encuesta
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.SurveyData
+tableName=survey_data
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=datos
+columnName=datos
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=estado
+columnName=estado
+# --field-end--
+# --field-start--
+fieldName=errores
+columnName=errores
+# --field-end--
+# --field-start--
+fieldName=dataID
+columnName=dataID
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.SurveyQuestion
+tableName=survey_question
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=uuid
+columnName=uuid
+# --field-end--
+# --field-start--
+fieldName=webId
+columnName=webid
+# --field-end--
+# --field-start--
+fieldName=texto
+columnName=texto
+# --field-end--
+# --field-start--
+fieldName=etiqueta
+columnName=etiqueta
+# --field-end--
+# --field-start--
+fieldName=tipo
+columnName=tipo
+# --field-end--
+# --field-start--
+fieldName=obligatorio
+columnName=obligatorio
+# --field-end--
+# --field-start--
+fieldName=catalogo
+columnName=catalogo
+# --field-end--
+# --field-start--
+fieldName=expresion
+columnName=expresion
+# --field-end--
+# --field-start--
+fieldName=posicion
+columnName=posicion
+# --field-end--
+# --field-start--
+fieldName=encuesta
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.geomovil.gestor.database.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=login
+columnName=login
+# --field-end--
+# --field-start--
+fieldName=password
+columnName=password
+# --field-end--
+# --field-start--
+fieldName=token
+columnName=token
+# --field-end--
+# --field-start--
+fieldName=nombres
+columnName=nombres
+# --field-end--
+# --field-start--
+fieldName=apellidos
+columnName=apellidos
+# --field-end--
+# --field-start--
+fieldName=nickname
+columnName=nickname
+# --field-end--
+# --field-start--
+fieldName=gestorID
+columnName=gestorId
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

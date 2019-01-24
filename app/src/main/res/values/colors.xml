@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f92a9</color>
+    <color name="colorPrimaryDark">#3fa5a9</color>
+    <color name="colorAccent">#f8c858</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="text_descriptive">#607D8B</color>
+    <color name="actionbar_text_color">#E8EAF6</color>
+
+
+    <color name="window_background">#f2f2f2</color>
+    <color name="bottom_actionbar_bkg">#4DB6AC</color>
+    <color name="text_principal">#424242</color>
+    <color name="text_secondary">#757575</color>
+    <color name="client_name">#7c7bad</color>
+
+
+    <color name="installed">#BFC4C9</color>
+    <color name="encuesta_title">#2A2F33</color>
+    <color name="installed_color">#1D8413</color>
+    <color name="not_installed_color">#B74343</color>
+    <color name="obsolete_color">#B74343</color>
+    <color name="photo_tomada">#F74C6B</color>
+    <color name="photo_tomada_text">#F2F2F2</color>
+    <color name="text_required">#FCDBDB</color>
+    <color name="text_back_default">#FFFFFF</color>
+    <color name="seccion_color">#B2A9A9</color>
+    <color name="letra_inputs">#5e5858</color>
+</resources>

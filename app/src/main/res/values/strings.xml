@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Survey Fast</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Clients">CLIENTES</string>
+    <string name="Map">MAPA</string>
+    <string name="Send">ENVIAR DATOS</string>
+    <string name="System">SISTEMA</string>
+    <string name="Update_System">ACTUALIZAR SISTEMA</string>
+    <string name="Update">CARGAR CLIENTES</string>
+    <string name="Logout">SALIR</string>
+    <string name="Calendar">AGENDA</string>
+    <string name="Encuestas">ENCUESTAS LIBRES</string>
+    <string name="user_name">Usuario</string>
+    <string name="user_pass">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="error_title">ERROR</string>
+    <string name="user_must_be_auth">El usuario debe estar autenticado</string>
+    <string name="auth_error">ERROR</string>
+    <string name="user_and_pass_required">USUARIO Y CONTRASEÑA REQUERIDOS</string>
+    <string name="starting_session">INICIANDO SESIÓN</string>
+    <string name="server_error_title">SERVER ERROR</string>
+    <string name="ecuestas_name">CAMPAÑAS</string>
+    <string name="txt_system_title">ENCUESTAS</string>
+    <string name="install_survey_msg">¿DESEA INSTALAR LA ENCUESTA?</string>
+    <string name="uninstall_survey_msg">¿DESEA DESINSTALAR LA ENCUESTA?</string>
+    <string name="remove_survey_msg">¿DESEA ELIMINAR LA ENCUESTA?</string>
+    <string name="installing_survey">INSTALANDO ENCUESTA</string>
+    <string name="loading_system_data">LEYENDO INFORMACION DEL SISTEMA</string>
+    <string name="survey_free">ENCUESTA LIBRE</string>
+    <string name="gps_location_title">Ubicación GPS</string>
+    <string name="gps_location_nedded">Ubicación del GPS  es requerida</string>
+    <string name="saved">GUARDADA</string>
+    <string name="success_saved">Información almacenada satisfactoriamente!</string>
+    <string name="title_info">INFORMACIÓN</string>
+    <string name="message_no_free_survey">No existen encuestas LIBRES instaladas en el sistema</string>
+    <string name="txt_survey_free_title">ENCUESTAS LIBRES</string>
+
+    <string name="txt_title">Titulo</string>
+    <string name="txt_empresa">Empresa</string>
+    <string name="txt_version">Version:</string>
+    <string name="txt_device">Dispositivo:</string>
+    <string name="txt_evaluator">Evaluador:</string>
+    <string name="txt_photo">Foto</string>
+    <string name="txt_estado">Estado</string>
+    <string name="out_of_system">Salir del Sistema</string>
+    <string name="sure_to_out_of_system">Seguro desea salir del sistema!</string>
+    <string name="location_required">Localización Requerida</string>
+    <string name="calculate_route">Para calcular la ruta ... GPS</string>
+    <string name="txt_calculate_route">CALCULAR RUTA</string>
+    <string name="txt_transport_route">Seleccione el medio de transporte:</string>
+    <string name="no_data_title">SIN DATOS</string>
+    <string name="no_data_to_send">No existen datos por enviar</string>
+    <string name="sending_data">Enviando datos al servidor...</string>
+    <string name="send_data_title">ENVIANDO DATOS</string>
+    <string name="data_sended_title">DATOS ENVIADOS</string>
+    <string name="data_sended">Datos enviados satisfactoriamente!</string>
+    <string name="loading_client_data_from_server">LEYENDO INFORMACION DE CLIENTES</string>
+    <string name="operacion_satisfactoria">OPERACION REALIZADA SATISFACTORIAMENTE</string>
+
+    <!--BUTTON-->
+    <string name="button_accept">ACEPTAR</string>
+    <string name="button_ok">OK!</string>
+    <string name="button_yes">SI!</string>
+    <string name="button_cancel">CANCELAR!</string>
+    <string name="button_no">NO!</string>
+
+    <!-- Campos Client List Adapter -->
+    <string name="cedula">Cédula</string>
+    <string name="name">Nombre</string>
+    <string name="direction">Dirección</string>
+    <string name="gestion">Gestión</string>
+    <string name="action_gps">GPS</string>
+    <string name="action_map">MAPA</string>
+    <string name="action_call">LLAMAR</string>
+    <string name="action_search">BUSCAR</string>
+
+    <string name="txt_search_client">BUSCAR</string>
+
+
+</resources>
